@@ -1,0 +1,50 @@
+# Stack work directory
+.stack-work/
+
+# Cabal specific files
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local.*
+cabal.sandbox.config
+.sandbox/
+
+# Generated binary and library files
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Stack specific files
+.stack-work/
+.stack-root/
+
+# Log files
+*.log
+
+# Temp files
+*.aux
+*.hp
+*.eventlog
+*.prof
+*.haddock
+*.hie
+*.tix
+*.tmp
+*.tmp.*
+
+# GHCi REPL history
+.ghci_history
+.ghci
+
+# MacOS-specific files
+.DS_Store
+
+# Linux-specific files
+*.swp
+*~
